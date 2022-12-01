@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<databaseChangeLog
+	xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.1.xsd">
+
+	<changeSet id="1" author="himanshu">
+	 <validCheckSum>ANY</validCheckSum>
+		<addForeignKeyConstraint
+			constraintName="project_billing_id_fk" referencedTableName="project_billing"
+			baseColumnNames="billing_id" baseTableName="project"
+			referencedColumnNames="billing_id" />
+		<addForeignKeyConstraint
+			constraintName="project_status_id_fk"
+			referencedTableName="project_status" baseColumnNames="status_id"
+			baseTableName="project" referencedColumnNames="project_status_id" />
+		<addForeignKeyConstraint
+			constraintName="project_id_fk" referencedTableName="project"
+			baseColumnNames="project_id" baseTableName="project_contributors"
+			referencedColumnNames="project_id" />
+		<addForeignKeyConstraint
+			constraintName="emp_id_fk" referencedTableName="employee"
+			baseColumnNames="manager_id" baseTableName="project"
+			referencedColumnNames="emp_id" />
+
+
+
+	</changeSet>
+</databaseChangeLog>

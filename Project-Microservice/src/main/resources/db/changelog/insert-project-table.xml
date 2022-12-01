@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<databaseChangeLog
+	xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.1.xsd">
+
+
+	<changeSet id="insert-project-contributors" author="himanshu">
+		<insert tableName="project">
+			<column name="project_code" value="P1" />
+			<column name="project_name" value="Project 1" />
+			<column name="company_name" value="Company1" />
+			<column name="manager_id" value="1" />
+			<column name="repo_url" value="bitbucket" />
+			<column name="status_id" value="1" />
+			<column name="technologies" value="java" />
+			<column name="billing_id" value="1" />
+			<column name="start_date" value="2022-08-26" />
+			<column name="end_date" value="2022-08-26" />
+			<column name="record_status" value="W" />
+		</insert>
+		<insert tableName="project">
+			<column name="project_code" value="P2" />
+			<column name="project_name" value="Project 2" />
+			<column name="company_name" value="Company2" />
+			<column name="manager_id" value="2" />
+			<column name="repo_url" value="bitbucket" />
+			<column name="status_id" value="3" />
+			<column name="technologies" value="java" />
+			<column name="billing_id" value="2" />
+			<column name="start_date" value="2022-08-26" />
+			<column name="end_date" value="2022-08-26" />
+			<column name="record_status" value="W" />
+		</insert>
+		<insert tableName="project">
+			<column name="project_code" value="P3" />
+			<column name="project_name" value="Project 3" />
+			<column name="company_name" value="Company3" />
+			<column name="manager_id" value="3" />
+			<column name="repo_url" value="bitbucket" />
+			<column name="status_id" value="2" />
+			<column name="technologies" value="java" />
+			<column name="billing_id" value="3" />
+			<column name="start_date" value="2022-08-26" />
+			<column name="end_date" value="2022-08-26" />
+			<column name="record_status" value="W" />
+		</insert>
+		<insert tableName="project">
+			<column name="project_code" value="P4" />
+			<column name="project_name" value="Project 4" />
+			<column name="company_name" value="Company4" />
+			<column name="manager_id" value="3" />
+			<column name="repo_url" value="bitbucket" />
+			<column name="status_id" value="2" />
+			<column name="technologies" value="java" />
+			<column name="billing_id" value="3" />
+			<column name="start_date" value="2022-08-26" />
+			<column name="end_date" value="2022-08-26" />
+			<column name="record_status" value="W" />
+		</insert>
+		<insert tableName="project">
+			<column name="project_code" value="P5" />
+			<column name="project_name" value="Project 5" />
+			<column name="company_name" value="Company4" />
+			<column name="manager_id" value="3" />
+			<column name="repo_url" value="bitbucket" />
+			<column name="status_id" value="2" />
+			<column name="technologies" value="java" />
+			<column name="billing_id" value="3" />
+			<column name="start_date" value="2022-08-26" />
+			<column name="end_date" value="2022-08-26" />
+			<column name="record_status" value="W" />
+		</insert>
+		<insert tableName="project">
+			<column name="project_code" value="P6" />
+			<column name="project_name" value="Project 6" />
+			<column name="company_name" value="Company6" />
+			<column name="manager_id" value="3" />
+			<column name="repo_url" value="bitbucket" />
+			<column name="status_id" value="2" />
+			<column name="technologies" value="java" />
+			<column name="billing_id" value="3" />
+			<column name="start_date" value="2022-08-26" />
+			<column name="end_date" value="2022-08-26" />
+			<column name="record_status" value="W" />
+		</insert>
+		<insert tableName="project">
+			<column name="project_code" value="P7" />
+			<column name="project_name" value="Project 7" />
+			<column name="company_name" value="Company7" />
+			<column name="manager_id" value="3" />
+			<column name="repo_url" value="bitbucket" />
+			<column name="status_id" value="2" />
+			<column name="technologies" value="java" />
+			<column name="billing_id" value="3" />
+			<column name="start_date" value="2022-08-26" />
+			<column name="end_date" value="2022-08-26" />
+			<column name="record_status" value="W" />
+		</insert>
+		<insert tableName="project">
+			<column name="project_code" value="P8" />
+			<column name="project_name" value="Project 8" />
+			<column name="company_name" value="Company8" />
+			<column name="manager_id" value="3" />
+			<column name="repo_url" value="bitbucket" />
+			<column name="status_id" value="2" />
+			<column name="technologies" value="java" />
+			<column name="billing_id" value="3" />
+			<column name="start_date" value="2022-08-26" />
+			<column name="end_date" value="2022-08-26" />
+			<column name="record_status" value="W" />
+		</insert>
+		<insert tableName="project">
+			<column name="project_code" value="P9" />
+			<column name="project_name" value="Project 9" />
+			<column name="company_name" value="Company9" />
+			<column name="manager_id" value="3" />
+			<column name="repo_url" value="bitbucket" />
+			<column name="status_id" value="2" />
+			<column name="technologies" value="java" />
+			<column name="billing_id" value="3" />
+			<column name="start_date" value="2022-08-26" />
+			<column name="end_date" value="2022-08-26" />
+			<column name="record_status" value="W" />
+		</insert>
+		<insert tableName="project">
+			<column name="project_code" value="P10" />
+			<column name="project_name" value="Project 10" />
+			<column name="company_name" value="Company10" />
+			<column name="manager_id" value="3" />
+			<column name="repo_url" value="bitbucket" />
+			<column name="status_id" value="2" />
+			<column name="technologies" value="java" />
+			<column name="billing_id" value="3" />
+			<column name="start_date" value="2022-08-26" />
+			<column name="end_date" value="2022-08-26" />
+			<column name="record_status" value="W" />
+		</insert>
+		<insert tableName="project">
+			<column name="project_code" value="P11" />
+			<column name="project_name" value="Project 11" />
+			<column name="company_name" value="Company11" />
+			<column name="manager_id" value="3" />
+			<column name="repo_url" value="bitbucket" />
+			<column name="status_id" value="2" />
+			<column name="technologies" value="java" />
+			<column name="billing_id" value="3" />
+			<column name="start_date" value="2022-08-26" />
+			<column name="end_date" value="2022-08-26" />
+			<column name="record_status" value="W" />
+		</insert>
+		<insert tableName="project">
+			<column name="project_code" value="P12" />
+			<column name="project_name" value="Project 12" />
+			<column name="company_name" value="Company12" />
+			<column name="manager_id" value="3" />
+			<column name="repo_url" value="bitbucket" />
+			<column name="status_id" value="2" />
+			<column name="technologies" value="java" />
+			<column name="billing_id" value="3" />
+			<column name="start_date" value="2022-08-26" />
+			<column name="end_date" value="2022-08-26" />
+			<column name="record_status" value="W" />
+		</insert>
+		<insert tableName="project">
+			<column name="project_code" value="P13" />
+			<column name="project_name" value="Project 13" />
+			<column name="company_name" value="Company13" />
+			<column name="manager_id" value="3" />
+			<column name="repo_url" value="bitbucket" />
+			<column name="status_id" value="2" />
+			<column name="technologies" value="java" />
+			<column name="billing_id" value="3" />
+			<column name="start_date" value="2022-08-26" />
+			<column name="end_date" value="2022-08-26" />
+			<column name="record_status" value="W" />
+		</insert>
+		<insert tableName="project">
+			<column name="project_code" value="P14" />
+			<column name="project_name" value="Project 14" />
+			<column name="company_name" value="Company14" />
+			<column name="manager_id" value="3" />
+			<column name="repo_url" value="bitbucket" />
+			<column name="status_id" value="2" />
+			<column name="technologies" value="java" />
+			<column name="billing_id" value="3" />
+			<column name="start_date" value="2022-08-26" />
+			<column name="end_date" value="2022-08-26" />
+			<column name="record_status" value="W" />
+		</insert>
+	</changeSet>
+
+</databaseChangeLog>
